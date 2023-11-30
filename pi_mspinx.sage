@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
   "--out",
   nargs=1,
-  default="pi_MSpinx.csv",
+  default=["pi_MSpinx.csv"],
   help="The CSV file to write the resulting data to")
 parser.add_argument(
   "n",

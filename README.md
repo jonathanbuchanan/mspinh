@@ -1,0 +1,3 @@
+# Spin Cobordism Groups Calculator
+
+The script `pi_mspinx.sage` calculates the Spin, Spin^c, or Spin^h cobordism groups to any desired degree. To run this program, you must have Sage installed. Use the command `./pi_mspinx.sage [n] [x]` to calculate the Spin^`x` cobordism groups (`x` can be `r`, `c`, or `h`, and Spin^r is Spin) groups in the range `0...(n - 1)`. The option `--out=[FILE]` can be used to direct the result of the calculation to `FILE`. The output is a CSV file, where the `n`th row (indices beginning at zero) is `r, s`, with `r` being the number of Z summands in degree `n` and `s` being the number of Z/2Z summands.
